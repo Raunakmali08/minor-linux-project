@@ -1,0 +1,18 @@
+raunak@DESKTOP-SUGSHOD:~$ mkdir FOREST_DATA
+raunak@DESKTOP-SUGSHOD:~$ cd FOREST_DATA
+raunak@DESKTOP-SUGSHOD:~/FOREST_DATA$ nano forest_species.txt
+raunak@DESKTOP-SUGSHOD:~/FOREST_DATA$ cat forest_species.txt
+Plant_name
+oak
+Burch
+Spruce
+Maple
+Pine
+raunak@DESKTOP-SUGSHOD:~/FOREST_DATA$ nano forest_data.csv
+raunak@DESKTOP-SUGSHOD:~/FOREST_DATA$ cat forest_data.csv
+height , age, species
+134cm  , 45 , oak
+546cm  , 67 , Burch
+890cm  , 58 , Spruce
+905cm  , 64 , Maple
+657cm  , 78 , Pine
