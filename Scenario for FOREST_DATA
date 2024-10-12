@@ -1,0 +1,31 @@
+Here are the questions on managing the forest dataset:
+
+1.How do you list the files and directories in your forest_data directory?
+->to list the file we use command "ls" and to change directories we used "cd" and to create directory we used "mkdir". 
+
+2.What command can you use to display the contents of forest_species.txt?
+-> To display the content of the file we used "cat" command.
+
+3.How can you count the number of species listed in forest_species.txt?
+->To count the number of species listed in forest_species.txt we used command "wc -l".
+
+4.What command would you use to find if "Maple" is in the species list?
+->To find the name in a file , command is grep "enter word"<file name>.
+
+5.How do you extract just the heights from forest_data.csv?
+->To extract just the height from the file the command we used is "awk {'print $no.of line'}".
+
+
+6.What command would you use to sort the forest_data.csv by height?
+->TO sort the data we used "sord -k 2 <file name>"
+
+7.How can you create a backup of forest_data.csv?
+-> to back up the file we must keep the copy of it in some other file. To do that we will use "cp <copied file><destination>"
+
+
+8.What command would you use to remove "Birch" from forest_species.txt?
+-> To do this we will open the file with the help of nano and then do the following editing and save the file 
+
+9.How can you append "Cedar" to the forest_species.txt file?
+-> To  append we will use "nano" and open the notepad of the file and then we will add data "Cedar" and then to save it we will use ctrl+x and then enetr
+
